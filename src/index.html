@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Rubik+Mono+One&display=swap&subset=cyrillic" rel="stylesheet">
+	<title>Rizor Hovertrax 4.0</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="js/picturefill.min.js"></script>
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="header__top">
+			<a href="#" class="header__logo">
+				<img src="img/logo-mobile.png" alt="Logo Rizor" width="120" height="30">
+			</a>
+			<button class="header__button"><span class="header__button--burger"></span></button>
+		</div>
+		<nav class="header__nav">
+			<ul class="header__list">
+				<li class="header__item">
+					<a href="#features">Преимущества</a>
+				</li>
+				<li class="header__item">
+					<a href="#spec">Характеристики</a>
+				</li>
+				<li class="header__item">
+					<a href="#purpose">Для кого</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="intro">
+			<a href="#" class="intro__video-link">
+				Смотреть<br>видео
+				<span class="triangle"></span>
+			</a>
+			<h1 class="intro__title">Rizor<br> Hovertrax<br>4.0</h1>
+			<p class="intro__slogan">Маневриность, легкость, экологичность</p>
+			<a href="#features" class="intro__scroll-down"></a>
+			<aside class="aside">
+				<ul class="aside__list">
+					<li class="aside__item">
+						<a href="#header" class="aside__link">
+							<span class="aside__circle aside__circle--current"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#features" class="aside__link">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#spec" class="aside__link">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#purpose" class="aside__link">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+				</ul>
+			</aside>
+		</section>
+		<section class="features" id="features">
+			<aside class="aside">
+				<ul class="aside__list">
+					<li class="aside__item">
+						<a href="#header" class="aside__link">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#features" class="aside__link">
+							<span class="aside__circle aside__circle--current"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#spec" class="aside__link">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#purpose" class="aside__link">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+				</ul>
+			</aside>
+			<h2 class="features__title">Преимущества</h2>
+			<ul class="features__list">
+				<li class="features__item design">
+					<h3 class="features__item-title">Дизайн</h3>
+					<p class="features__item-text">
+						Внешний вид скутера дышит идеями футуризма:
+					</p>
+					<ul class="features__appereance">
+						<li>плавные линии</li>
+						<li>подсветка светодиодными индикаторами</li>
+						<li>рельефные бамперы, оснащенные защитными панелями</li>
+					</ul>
+				</li>
+				<li class="features__item colors">
+					<div>
+						<h3 class="features__item-title">Цвет</h3>
+						<p class="features__item-text">
+							Модель представлена сразу в нескольких цветах.
+						</p>
+					</div>
+					<div class="features__wrapper">
+						<a href="#" class="features__color yellow"></a>
+						<a href="#" class="features__color lightblue"></a>
+						<a href="#" class="features__color red"></a>
+						<a href="#" class="features__color white"></a>
+						<a href="#" class="features__color black"></a>
+					</div>
+					<picture>
+						<source media="(min-width:768px)" srcset="img/ft-colors-tablet.png">
+						<img src="img/scooter-preview.jpg" alt="Scooter preview">
+					</picture>	
+				</li>
+				<li class="features__item indicators">
+					<h3 class="features__item-title">Индикаторы</h3>
+					<p class="features__item-text">
+						Cветодиодные индикаторы сообщают 
+						окружающим о запланированном 
+						повороте. Своим мерцанием они 
+						мгновенно реагируют на смещение 
+						центра тяжести в правую или левую 
+						сторону.
+					</p>
+					<p class="features__item-text">
+						Как только ваше движение продолжится по прямой, мерцание прекратится, 
+						подсветка снова станет в виде сплошной линии.
+					</p>
+					<a href="#" class="features__video-link video-link">
+						Смотреть<br>видео
+						<span class="triangle"></span>
+					</a>
+					<picture>
+						<source media="(min-width:1300px)" srcset="img/indi-scooter-desktop.jpg">
+						<source media="(min-width:768px)" srcset="img/indi-scooter-tablet.jpg">
+						<img src="img/indi-scooter.png" alt="Man on scooter" class="features__img">
+					</picture>
+				</li>
+				<li class="features__item modes">
+					<div>
+						<h3 class="features__item-title">Режимы</h3>
+						<p class="features__item-text">
+							Помимо «умной» подсветки, 
+							<b>Hovertrax 4.0</b> снабжён двумя 
+							скоростными режимами. 
+						</p>
+						<ul class="features__modes">
+							<li>Один для продвинутых пользователей</li>
+							<li>Второй для новичков</li>
+						</ul>
+						<table class="features__table">
+							<tr>
+								<td class="features__big-line">13<span class="smaller">км/ч</span></td>
+								<td class="features__big-line">2</td>
+							</tr>
+							<tr>
+								<td class="features__small-line">Максимальная<br>скорость</td>
+								<td class="features__small-line">Скоростных<br>режима</td>
+							</tr>
+						</table>
+					</div>
+					<picture>
+						<source media="(min-width:1300px)" srcset="img/modes-scooter-desktop.jpg">
+						<source media="(min-width:768px)" srcset="img/modes-scooter-tablet.jpg">
+						<img src="img/modes-scooter.png" alt="Scooter preview"  class="features__img">
+					</picture>
+					<a href="#" class="features__video-link video-link">
+						Смотреть<br>видео
+						<span class="triangle"></span>
+					</a>
+				</li>
+				<li class="features__item battery">
+					<div>
+						<h3 class="features__item-title">Аккумулятор</h3>
+						<p class="features__item-text">
+							Имеет съемную аккумуляторную 
+							батарею. Это позволяет легко вытащить сам АКБ и, к примеру, перевезти 
+							весь гироборд в самолёте – это кстати 
+							единственный гироскутер, с которым 
+							проходит такой «трюк», да и есть 
+							документы, подтверждающие лицензию на его производство и использование.
+						</p>
+					</div>
+					<div>
+						<table class="features__table">
+							<tr>
+								<td class="features__big-line">25<span class="smaller">км</span></td>
+								<td class="features__big-line">2<span class="smaller">ч</span></td>
+							</tr>
+							<tr>
+								<td class="features__small-line">Запас хода</td>
+								<td class="features__small-line">Время зарядки</td>
+							</tr>
+						</table>
+						<picture>
+							<source media="(min-width:768px)" srcset="img/battery-tablet.png">
+							<img src="img/battery.png" alt="Battery">
+						</picture>
+					</div>
+				</li>
+				<li class="features__item electronic">
+					<div class="features__container">
+						<h3 class="features__item-title">Электроника</h3>
+						<p class="features__item-text">
+							При эксплуатации <b>Rizor Hovertrax 
+							4.0</b> нельзя не отметить плавность 
+							торможения и быстроту набора 
+							скорости. 
+						</p>
+						<p class="features__item-text">
+							В копилку «плюсов» нужно отнести 
+							и безупречную отзывчивость 
+							электронной начинки.
+						</p>
+					</div>
+					<div class="features__d-table">
+						<div class="features__table-cell">
+							<div class="features__icon engine"></div>
+							<div class="features__small-line">Бесшумный<br>двигатель</div>
+						</div>
+						<div class="features__table-cell">
+							<div class="features__icon gyroscope"></div>
+							<div class="features__small-line">Встроенный<br>гироскоп</div>
+						</div>
+					</div>
+					<picture>
+						<source media="(min-width:768px)" srcset="img/video-img-tablet.jpg">
+						<img src="img/video-img.jpg" alt="Video instead of img" class="features__img">
+					</picture>
+				</li>
+			</ul>
+		</section>
+		<section class="specifications" id="spec">
+			<aside class="aside">
+				<ul class="aside__list">
+					<li class="aside__item">
+						<a href="#header">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#features">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#spec">
+							<span class="aside__circle aside__circle--current"></span>
+						</a>
+					</li>
+					<li class="aside__item">
+						<a href="#purpose">
+							<span class="aside__circle"></span>
+						</a>
+					</li>
+				</ul>
+			</aside>
+			<picture>
+				<source media="(min-width:1300px)" srcset="img/spec-img-desktop.png">
+				<img class="specifications__scooter-img" src="img/spec-img.png" alt="Scooter">
+			</picture>
+			<div class="specifications__wrapper">
+				<h2 class="specifications__title">Характеристики</h2>
+				<h3 class="specifications__second-title">Rizor<br> hovertrax<br> 4.0</h3>
+			</div>
+			<ul class="specifications__list">
+				<li class="specifications__item">
+					<img src="img/body.png" alt="body icon" class="specifications__image body">
+					<h4 class="specifications__item-title">Корпус</h4>
+					<p class="specifications__item-text">
+						Выполнен из прочного пластика, и имеет 
+						приятную LED подсветку, дополняющую 
+						общий дизайн. Платформы для ног покрыты 
+						антискользящим покрытием.
+					</p>
+				</li>
+				<li class="specifications__item">
+					<img src="img/wheels.png" alt="body icon" class="specifications__image wheels">
+					<h4 class="specifications__item-title">Колеса</h4>
+					<p class="specifications__item-text">
+						<b>Rizor Hovertrax 4.0</b> получил 
+						относительно небольшие, 
+						но, в целом, среднего диаметра 
+						колёса в <b>6,5 дюймов.</b>
+					</p>
+				</li>
+				<li class="specifications__item">
+					<img src="img/power.png" alt="body icon" class="specifications__image power">
+					<h4 class="specifications__item-title">Мощность</h4>
+					<p class="specifications__item-text">
+						Двигателя в <b>350 Вт</b> обеспечивает 
+						комфортное и безопасное передвижение 
+						при максимальной скорости 
+						в <b>13 км/ч.</b>
+					</p>
+				</li>
+				<li class="specifications__item">
+					<img src="img/weight.png" alt="body icon" class="specifications__image weight">
+					<h4 class="specifications__item-title">Вес</h4>
+					<p class="specifications__item-text">
+						Небольшой вес, приблизительно 
+						в <b>12 кг</b>, позволяет относительно 
+						компактно переносить гироборд 
+						с собой.
+					</p>
+				</li>
+			</ul>
+		</section>
+		<section class="purpose" id="purpose">
+			<div class="purpose__image">
+				<p class="purpose__text-on-img">4.0<br>Rizor</p>
+			</div>
+			<div class="purpose__container">
+				<h2 class="purpose__title">Для кого</h2>
+				<div class="purpose__wrapper">
+					<p class="purpose__text">
+						При максимально выдерживаемой 
+						нагрузке в <b>100 кг</b> отлично подойдёт, 
+						как для подрастающего поколения, 
+						так и для более взрослых «наездников».
+					</p>
+					<p class="purpose__text">
+						Это единственный гироскутер со 
+						специальным детским режимом 
+						езды.
+					</p>
+				</div>
+				<a href="#" class="purpose__link">Перейти в каталог</a>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<p class="footer__text">© All rights reserved, 2017</p>
+	</footer>
+	<script type="text/javascript">
+		var button = document.querySelector('.header__button');
+		var burger = document.querySelector('.header__button--burger');
+		var menu = document.querySelector('.header__list');
+
+		button.addEventListener('click', function() {
+			menu.classList.toggle('header__list--opened');
+			burger.classList.toggle('open');
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+.specifications {
+	padding-top:35px;
+	margin-bottom: 140px;
+	position: relative;
+}
+.specifications__scooter-img {
+	display:none;
+}
+.specifications__title {
+	@include title-h2;
+	text-align:center;
+	margin-bottom: 60px;
+}
+.specifications__second-title {
+	font-family: $rubik;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+}
+.specifications__list {
+	text-align: center;
+}
+.specifications__image {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.specifications__image.body {
+	width:68px;
+	height:51px;
+}
+.specifications__image.wheels {
+	width:53px;
+	height:53px;
+}
+.specifications__image.power {
+	width:50px;
+	height:40px;
+}
+.specifications__image.weight {
+	width:47px;
+	height:52px;
+}
+.specifications__item-title {
+	font-size: 16px;
+	line-height: 30px;
+	text-transform:uppercase;
+	font-weight: 700;
+}
+
+
+@media (min-width:768px) {
+	.specifications {
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 200px;
+	}
+	.specifications__scooter-img {
+		display:block;
+		width:auto;
+		height:375px;
+	}
+	.specifications__wrapper {
+		width:45%;
+		margin:0 auto;
+		padding-top:100px;
+	}
+	.specifications__list {
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		text-align: left;
+
+		padding:0 90px;
+	}
+	.specifications__item {
+		width:45%;
+	}
+	.specifications__image.weight {
+		margin-bottom: 10px;
+		margin-top: 40px;
+	}
+}
+
+@media (min-width:1300px) {
+	.specifications__scooter-img {
+		height:500px;
+	}
+	.specifications__wrapper {
+		width:100%;
+		padding-top: 50px;
+		padding-left: 350px;
+		order:-1;
+		margin: 0;
+	}
+	.specifications__title {
+		text-align: left;
+		font-size: 20px;
+	}
+	.specifications__second-title {
+		text-align: left;
+		font-size: 40px;
+		br {
+			display:none;
+		}
+	}
+	.specifications__list {
+		width:60%;
+	}
+	.specifications__item-title {
+		font-size: 20px;
+	}
+	.specifications__image {
+		margin-bottom: -30px;
+		margin-left: -30px;
+	}
+	.specifications__image.weight {
+		margin-bottom: -30px;
+		margin-top: 35px;
+	}
+}
